@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+.hidden {
+  display: none;
+}
+img {
+  margin-left: 2pc;
+  background: none;
+}
+body {
+  background: linear-gradient(to right, rgb(4, 49, 90), rgb(40, 117, 180));
+  align-items: center;
+  display: inline;
+  justify-content: center;
+}
+h1 {
+  color: rgb(12, 77, 161);
+  font-size: 5pc;
+}
+.player0 {
+  padding: 10px, 20%;
+  width: 27pc;
+  height: 35pc;
+  float: left;
+  border-radius: 5pc;
+  text-align: center;
+  margin-bottom: 15pc;
+  margin: 11pc;
+}
+button {
+  width: 12pc;
+  height: 4pc;
+  border-radius: 5pc;
+  background-color: white;
+  font-size: 1.4pc;
+}
+.button {
+  position: relative;
+  top: 19pc;
+}
+.player1 {
+  padding: 10px, 20%;
+  width: 27pc;
+  height: 35pc;
+  float: right;
+  border-radius: 5pc;
+  text-align: center;
+  margin-top: 5pc;
+}
+button:hover {
+  background-color: rgb(48, 129, 223);
+  cursor: pointer;
+}
+.number {
+  font-size: 4pc;
+}
+.back {
+  background-color: rgb(41, 98, 145);
+  width: 14pc;
+  height: 8pc;
+  position: relative;
+  top: 16pc;
+  border-radius: 2pc;
+  text-align: center;
+  font-size: 2pc;
+  display: inline-block;
+}
+.player {
+  background-color: white;
+  animation-duration: 1s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.75s;
+  flex: 50%;
+}
+.winner {
+  background-color: rgb(66, 65, 65);
+}
+.p0,
+.p1 {
+  color: rgb(218, 185, 40);
+  font-size: 3pc;
+  font-weight: bolder;
+}
